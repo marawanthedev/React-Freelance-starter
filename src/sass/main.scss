@@ -1,0 +1,27 @@
+
+@import "./base/base";
+@import  "./base/fonts";
+@import "./base/utilities";
+
+// animate css integration
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.App {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    @media (max-height: 600px) {
+      // display: none;
+      @media (min-width: 1024px) {
+        // display: none;
+        overflow: scroll;
+      }
+    }
+  }
+  body {
+    overflow-x: hidden;
+  }
+  

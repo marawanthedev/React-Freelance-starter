@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 815px) {
+  html {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 730px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 5.5px;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 5.25px;
+  }
+}
